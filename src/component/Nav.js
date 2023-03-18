@@ -6,7 +6,7 @@ function Nav() {
       <a href="/" className=" ui teal inverted segment">Img search engin</a>
       <div className="ui right floated header">
         <button className="ui button">
-          <a href="/home">Home</a>
+          <a href="/">Home</a>
         </button>
         <button className="ui button">
           <a href="/about">About</ a>

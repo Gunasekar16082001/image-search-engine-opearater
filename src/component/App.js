@@ -9,13 +9,13 @@ import About from "./About";
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      <Nav />
-      <Routes>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+        </Routes>
       </div>
     </BrowserRouter>
   );
