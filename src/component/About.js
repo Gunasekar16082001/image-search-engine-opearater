@@ -6,7 +6,7 @@ function About() {
       className="ui raised very padded text container segment "
       style={{ margin: "30px" }}
     >
-      <h1>About</h1>
+      <h1>About us</h1>
       <p>
         A search engine operator is an organization or company that owns and
         operates a search engine. Search engine operators are responsible for
